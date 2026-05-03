@@ -35,23 +35,29 @@ if (process.env.RAZORPAY_KEY_ID && process.env.RAZORPAY_KEY_SECRET) {
 // Product Catalog for Backend Price Validation
 // Replace these with your exact prices
 const catalog = {
-  "Lavender (Big Box)": 500,
-  "Jawadhu (Big Box)": 500,
-  "Hibiscus (Big Box)": 500,
-  "Jasmine (Big Box)": 500,
-  "Kewda (Big Box)": 500,
-  "Pineapple (Big Box)": 500,
-  "Sambrani (Big Box)": 500,
-  "Rose (Big Box)": 500,
-  "Sandalwood (Big Box)": 500,
-  "Kasturi (Big Box)": 500,
-  "Jasmine (Small Box)": 300,
-  "Kewda (Small Box)": 300,
-  "Rose (Small Box)": 300,
-  "Sandalwood (Small Box)": 300,
-  "Rose (Dhoop)": 200,
-  "Kewda (Dhoop)": 200,
-  "Lavender (Dhoop)": 200
+  "Lavender (Big Box)": 250,
+  "Jawadhu (Big Box)": 250,
+  "Hibiscus (Big Box)": 250,
+  "Jasmine (Big Box)": 250,
+  "Kewda (Big Box)": 250,
+  "Sugandh (Big Box)": 250,
+  "Sindhu (Big Box)": 250,
+  "Banaras (Big Box)": 250,
+  "Pineapple (Big Box)": 250,
+  "Sambrani (Big Box)": 250,
+  "Rose (Big Box)": 250,
+  "Sandalwood (Big Box)": 250,
+  "Kasturi (Big Box)": 250,
+  "Jasmine (Small Box)": 189,
+  "Kewda (Small Box)": 189,
+  "Lavender (Small Box)": 189,
+  "Rose (Small Box)": 189,
+  "Sandalwood (Small Box)": 189,
+  "Sandalwood (Dhoop)": 189,
+  "Kewda (Dhoop)": 189,
+  "Rose (Dhoop)": 189,
+  "Lavender (Dhoop)": 189,
+  "Sindhu (Dhoop)": 189
 };
 
 // ==========================================
