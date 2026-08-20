@@ -44,7 +44,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 // Explicitly handle browser preflight requests
-app.options("*", cors(corsOptions));
+
 
 // ==========================================
 // RAZORPAY INSTANCE
